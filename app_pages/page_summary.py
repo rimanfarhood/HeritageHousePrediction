@@ -16,7 +16,10 @@ def page_summary_body():
         "- **GarageArea**: Size of garage in square feet\n"
         "- **YearBuilt**: Original construction date\n"
     )
-
+    st.write(
+        "**For better understanding and interpretation I "
+        "recommend to have a look through all the metadata**"
+        )
     if st.checkbox("View all metadata"):
         st.write(
             "- **2ndFlrSF**: Second floor square feet\n\n"
