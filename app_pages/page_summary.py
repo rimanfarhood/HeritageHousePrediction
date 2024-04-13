@@ -3,11 +3,27 @@ import streamlit as st
 
 def page_summary_body():
 
-    st.write("### Quick Project Summary")
-
-    # text based on README file - "Dataset Content" section
+    st.write("## Project Summary")
+    # copied from README file - "Business Requirements" section
+    st.subheader("Business requirements")
     st.write(
-        "**Project Terms & Jargon**\n\n"
+        "**Requirement 1:**\n\n"
+        " - The client is interested in discovering how house attributes"
+        " correlate with sale prices. Therefore, the client expects data "
+        " visualizations of the correlated variables against the sale price\n\n"
+        "- The client is interested in predicting the house sale prices "
+        "from her 4 inherited houses, and any other house in Ames, Iowa.\n\n"
+        )
+    st.write(
+        "**Requirement 2:**\n\n"
+        " - Deliver an ML model with the capability of predicting the\n"
+        "sale price of the four inherited houses and any house in Ames,"
+        "Iowa with at least 75% accuracy."
+        )
+    st.write("---")
+    # text based on README file - "Dataset Content" section
+    st.subheader("Jargon\n")
+    st.write(
         "- **SalePrice** is the target variable.\n"
         "- **1stFlrSF**: First floor square feet\n"
         "- **GrLivArea**: Above grade (ground) living area square feet\n"
@@ -83,24 +99,6 @@ def page_summary_body():
         "**."
     )
     
-    st.write("---")
-
-    # copied from README file - "Business Requirements" section
-    st.subheader("Business requirements")
-    st.write(
-        "**Requirement 1:**\n\n"
-        " - The client is interested in discovering how house attributes"
-        " correlate with sale prices. Therefore, the client expects data "
-        " visualizations of the correlated variables against the sale price\n\n"
-        "- The client is interested in predicting the house sale prices "
-        "from her 4 inherited houses, and any other house in Ames, Iowa.\n\n"
-        )
-    st.write(
-        "**Requirement 2:**\n\n"
-        " - Deliver an ML model with the capability of predicting the\n"
-        "sale price of the four inherited houses and any house in Ames,"
-        "Iowa with at least 75% accuracy."
-        )
     st.write("---")
 
     # Link to README file, for users to access the full project documentation
