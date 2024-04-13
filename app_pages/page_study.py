@@ -26,7 +26,7 @@ def page_study_body():
     st.write(
         "The data have been studied by conducting correlation studies both" 
         " Spearman and Pearson. The findings has been further explored and"
-        " plotted against the target to visualizing insights"
+        " plotted against the target to visualizing insights.\n\n"
         )
     
     # inspect data

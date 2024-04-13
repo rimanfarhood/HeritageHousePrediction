@@ -9,7 +9,7 @@ def housing_data():
     return df
 
 def inherited_house_data():
-    in_df = pd.read_csv("outputs/datasets/collection/inherited_houses.csv")
+    in_df = pd.read_csv("outputs/datasets/collection/InheritedHouses.csv")
     return in_df
 
 
