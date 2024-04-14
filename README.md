@@ -119,6 +119,10 @@ Beside external factors these factors that have the greatest impact on price:
 
 - Dashboard deployment and release.
 
+Here you can find my:
+- [Kanban board](https://github.com/rimanfarhood/HeritageHousePrediction/projects?query=is%3Aopen)
+- [Epics](https://github.com/rimanfarhood/HeritageHousePrediction/milestones)
+
 **6. Ethical or Privacy concerns?**
 
 - No. The client found a public dataset.
@@ -190,7 +194,8 @@ Beside external factors these factors that have the greatest impact on price:
 ## Unfixed Bugs
 
 * 'None' displaying on the prediction page and I cant seem to understand where from.
- ![]()
+
+![bug](https://github.com/rimanfarhood/HeritageHousePrediction/tree/main/media)
 
 ## Deployment
 ### Heroku
