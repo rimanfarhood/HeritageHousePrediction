@@ -136,7 +136,7 @@ def DrawInputsWidgets():
 	with col5:
 		feature = "YearBuilt"
 		st_widget = st.number_input(
-			label= "Year Built: Original construction date: 1872-2010", 
+			label= "Year Built: 1872-2010", 
 			min_value= 1872,
 			max_value= 2010,
             step= 1
