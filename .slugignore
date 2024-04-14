@@ -18,7 +18,7 @@ inputs/
 
 node_modules/
 
-
+media/
 .github/
 cloudinary_python.txt
 README.md

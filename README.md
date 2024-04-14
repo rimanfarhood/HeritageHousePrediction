@@ -189,7 +189,8 @@ Beside external factors these factors that have the greatest impact on price:
 
 ## Unfixed Bugs
 
-* No unfixed bugs
+* 'None' displaying on the prediction page and I cant seem to understand where from.
+ ![]()
 
 ## Deployment
 ### Heroku
