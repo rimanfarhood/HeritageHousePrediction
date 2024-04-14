@@ -1,8 +1,8 @@
 # Heritage Housing Issue
 
-A Machine Learning Project
+This is A Machine Learning Project
 
-Predict house prices in Ames, Iowa.
+For House Price Prediction in Ames, Iowa.
 
 * The App live link is: [Heritage Housing](https://heritagehousing-1493ef292e3f.herokuapp.com/)
 
