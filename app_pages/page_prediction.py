@@ -10,7 +10,7 @@ def page_prediction_body():
 
 	# load predict sale_price files	
 	pipeline = load_pkl_file("outputs/ml_pipeline/predict_SalePrice/v1/pipeline.pkl")
-	sale_price_features = (pd.read_csv(f"outputs/ml_pipeline/predict_SalePrice/{version}/X_train.csv").columns.to_list())
+	sale_price_features = (pd.read_csv(f"outputs/ml_pipeline/predict_SalePrice/v1/X_train.csv").columns.to_list())
 	st.write("## House Price Prediction")
 	st.subheader("Business Requirement 2")
 	st.write(
