@@ -36,7 +36,7 @@ def page_prediction_body():
 
 	features = [
 		'GarageArea', 'GrLivArea', 
-		'OverallQual','TotalBsmtSF', 
+		'KitchenQual','TotalBsmtSF', 
 		'YearBuilt']
 
 	st.subheader("The Summed Predicted Price For All 4 Inherited Houses is:\n 625 133.3$") 
@@ -82,8 +82,8 @@ def DrawInputsWidgets():
 	df = housing_data()
 
     # we create input widgets for 5 features 	
-	col1, col2 = st.beta_columns(2)
-	col3, col4, col5 = st.beta_columns(3)
+	col1, col2 = st.columns(2)
+	col3, col4, col5 = st.columns(3)
 
 	# We are using these features to feed the ML pipeline
 		

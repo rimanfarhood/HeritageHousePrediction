@@ -22,11 +22,11 @@ def regression_performance(X_train, y_train, X_test, y_test, pipeline):
 
 def regression_evaluation(X, y, pipeline):
     prediction = pipeline.predict(X)
-    st.write('R2 Score:', r2_score(y, prediction).round(3))
-    st.write('Mean Absolute Error:', mean_absolute_error(y, prediction).round(3))
-    st.write('Mean Squared Error:', mean_squared_error(y, prediction).round(3))
-    st.write('Root Mean Squared Error:', np.sqrt(
-        mean_squared_error(y, prediction)).round(3))
+    st.write('R2 Score:', round(r2_score(y, prediction), 3))
+    st.write('Mean Absolute Error:', round(mean_absolute_error(y, prediction), 3))
+    st.write('Mean Squared Error:', round(mean_squared_error(y, prediction), 3))
+    st.write('Root Mean Squared Error:', round(
+        np.sqrt(mean_squared_error(y, prediction)), 3))
     st.write("\n")
 
 
